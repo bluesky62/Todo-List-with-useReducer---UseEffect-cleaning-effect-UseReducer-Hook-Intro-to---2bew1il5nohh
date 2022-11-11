@@ -11,7 +11,7 @@ const Todo = ({ state, dispatch }) => {
                 className="todo-delete"
                 onClick={() => dispatch({ type: "remove", index })}
               >
-                Delete
+                delete
               </button>
             </li>
           </div>
